@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .editor {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .toolbar {
+    width: 250px;
+    background: #73f5f5;
+
+  }
+  
+  .toolbar-item {
+    padding: 15px;
+  }
+  
+  .toolbar-item header{
+    font-size: 25px;
+    font-weight: 1000;
+    color: red;
+  }
+  .tool-label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .tool-input {
+    width: 100%;
+  }
+  
+  .image-area {
+    flex-grow: 1;
+    padding: 20px;
+    border: 2px solid black;
+    background: #fbfbfb;
+  }
+  
+  #canvas {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
